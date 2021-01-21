@@ -1,7 +1,25 @@
 nav{
+	box-shadow: 0 45px 60px -30px #7D7D7D;
     float: left;
+    width: 130px;
+    height: 300px;
+	border-top-color: black;
+	border-top-width: 1px;
+	border-top: solid;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8e8e8e+0,8e8e8e+99&0.63+0,0+100 */
+	background: -moz-linear-gradient(-45deg,  rgba(142,142,142,0.63) 0%, rgba(142,142,142,0.01) 99%, rgba(142,142,142,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(142,142,142,0.63) 0%,rgba(142,142,142,0.01) 99%,rgba(142,142,142,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(142,142,142,0.63) 0%,rgba(142,142,142,0.01) 99%,rgba(142,142,142,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a18e8e8e', endColorstr='#008e8e8e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-ul{
-    color:black;
+.mcdo{
+    list-style: none;
+    padding-left: 0%;
+}
+
+footer{
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
 }
